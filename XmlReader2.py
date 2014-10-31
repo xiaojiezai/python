@@ -22,7 +22,7 @@ for d in dirs:  #d是root里的文件
         continue 
     print "=================================开始处理文件夹：%s=================================" % d
     if os.path.exists(d+'.xls'):
-        dec=raw_input("啊哦，该文件已经存在，选择是否将其覆盖：yes or no\n")
+        dec=raw_input("额，该文件已经存在，选择是否将其覆盖：yes or no\n")
         if dec=="no":
             print "不会写入excel"
             continue
